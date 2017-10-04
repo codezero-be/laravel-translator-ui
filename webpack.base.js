@@ -29,7 +29,7 @@ module.exports = {
     },
 
     plugins: [
-        new ExtractTextPlugin('styles.css'),
+        new ExtractTextPlugin('[name].css'),
         new webpack.optimize.UglifyJsPlugin({
             include: /\.js$/,
             minimize: true,
