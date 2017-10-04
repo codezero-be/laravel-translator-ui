@@ -17,8 +17,6 @@ module.exports = merge(require('./webpack.base'), {
 
     externals: [
         'vue',
-        'form-backend-validation',
         'vue-ckeditor2',
-        'sweetalert2',
     ],
 });

@@ -1,6 +1,6 @@
 {
   "name": "laravel-translator-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "VueJS admin UI for the codezero/laravel-translator composer package.",
   "main": "dist/index.js",
   "jsnext:main": "src/index.js",
